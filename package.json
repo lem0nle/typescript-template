@@ -3,6 +3,7 @@
   "scripts": {
     "format": "prettier --write \"src/**/*.{ts,tsx,js,jsx,vue}\"",
     "lint": "eslint --fix --ext .ts,.tsx,.js,.jsx,.vue src",
+    "tc": "tsc --noEmit",
     "prepare": "husky install"
   },
   "devDependencies": {
