@@ -5,16 +5,14 @@ module.exports = {
     es6: true,
     node: true,
   },
-  extends: [
-    'plugin:@typescript-eslint/recommended',
-    'prettier',
-  ],
-  plugins: ['@typescript-eslint'],
+  extends: ['plugin:@typescript-eslint/recommended', 'prettier'],
+  plugins: ['@typescript-eslint', 'prettier'],
   parserOptions: {
     parser: '@typescript-eslint/parser',
   },
 
   rules: {
+    'prettier/prettier': 'error',
     'no-console': process.env.NODE_ENV === 'production' ? 'error' : 'off',
     'no-debugger': process.env.NODE_ENV === 'production' ? 'error' : 'off',
     '@typescript-eslint/explicit-module-boundary-types': 0,

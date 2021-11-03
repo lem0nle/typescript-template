@@ -10,7 +10,6 @@
     "incremental": false,
     "skipLibCheck": true,
     "moduleResolution": "node",
-    "noUnusedLocals": true,
     "strictNullChecks": true,
     "types": [],
     "paths": {
