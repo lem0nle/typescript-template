@@ -22,5 +22,5 @@ Also, you can create a local project with this template.
 ```bash
 npx degit lem0nle/typescript-template my-ts-project
 cd my-ts-project
-npm i
+npm install
 ```
