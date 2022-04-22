@@ -9,7 +9,7 @@ A _minimal_ TypeScript project template for both frontend and backend developmen
 ### Features
 
 - Start a TypeScript project with **best practices**
-- Better **developer experience** with formatting, linting and VSCode extentions
+- Better **developer experience** with formatting, linting and fast testing
 - A good starting point for both **frontend and backend** development
 
 ### Usage
