@@ -2,6 +2,7 @@
   "compilerOptions": {
     "module": "esnext",
     "lib": ["dom", "es2021"],
+    "strict": true,
     "skipLibCheck": true,
     "esModuleInterop": true,
     "moduleResolution": "node"
