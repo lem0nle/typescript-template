@@ -1,5 +1,6 @@
 {
   "private": true,
+  "type": "module",
   "scripts": {
     "format": "prettier --write \"src/**/*.{ts,tsx,js,jsx,vue}\"",
     "lint": "eslint --fix --ext .ts,.tsx,.js,.jsx,.vue src",
@@ -7,19 +8,19 @@
     "prepare": "husky install"
   },
   "devDependencies": {
-    "@swc/core": "^1.2.171",
+    "@swc/core": "^1.2.175",
     "@swc/jest": "^0.2.20",
-    "@types/jest": "^27.4.1",
-    "@typescript-eslint/eslint-plugin": "^5.20.0",
-    "@typescript-eslint/parser": "^5.20.0",
-    "eslint": "^8.13.0",
+    "@types/jest": "^27.5.0",
+    "@typescript-eslint/eslint-plugin": "^5.22.0",
+    "@typescript-eslint/parser": "^5.22.0",
+    "eslint": "^8.14.0",
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-prettier": "^4.0.0",
     "husky": "^7.0.4",
-    "jest": "^27.5.1",
-    "lint-staged": "^12.4.0",
+    "jest": "^28.0.3",
+    "lint-staged": "^12.4.1",
     "prettier": "^2.6.2",
-    "typescript": "^4.6.3"
+    "typescript": "^4.6.4"
   },
   "lint-staged": {
     "src/**/*.{ts,tsx,js,jsx,vue}": [

@@ -25,7 +25,8 @@ Also, you can create a local project with this template.
 ```bash
 npx degit lem0nle/typescript-template my-ts-project
 cd my-ts-project
-npm install
+# you need to first install pnpm: npm i -g pnpm
+pnpm i
 ```
 
 ### Develop a library
@@ -40,16 +41,10 @@ Modify your `package.json`:
   "name": "LIBRARY-NAME",
   "version": "1.0.0",
   "author": "YOUR-NAME-AND-EMAIL",
+  "type": "module",
   "source": "src/index.ts",
   "main": "dist/index.js",
-  "module": "dist/index.mjs",
-  "types": "dist/index.d.ts",
-  "exports": {
-    ".": {
-      "import": "./dist/index.mjs",
-      "require": "./dist/index.js"
-    }
-  }
+  "types": "dist/index.d.ts"
   // other fields...
 }
 ```
