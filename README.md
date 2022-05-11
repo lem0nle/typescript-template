@@ -52,7 +52,8 @@ Modify your `package.json`:
   "type": "module",
   "source": "src/index.ts",
   "main": "dist/index.js",
-  "types": "dist/index.d.ts"
+  "types": "dist/index.d.ts",
+  "files": ["dist/"]
   // other fields...
 }
 ```
